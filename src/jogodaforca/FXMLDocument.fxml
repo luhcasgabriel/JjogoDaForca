@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Estilo.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jogodaforca.FXMLDocumentController">
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="77.0" prefWidth="600.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Digite a letra: ">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font></Text>
+            <TextField fx:id="digite" maxWidth="70.0" prefHeight="25.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+            <Button fx:id="verificar" mnemonicParsing="false" onAction="#clique" text="Verificar" />
+         </children>
+      </VBox>
+   </bottom>
+   <center>
+      <HBox alignment="CENTER" maxHeight="100.0" maxWidth="300.0" prefHeight="305.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="label1" alignment="CENTER" text="_">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" text="_">
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" text="_">
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="label4" text="_">
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </center>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="forca" fitHeight="174.0" fitWidth="158.0" layoutX="-4.0" layoutY="31.0" onDragDetected="#clique" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@imagens/forca%20(2).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="cabeca" fitHeight="48.0" fitWidth="67.0" layoutX="68.0" layoutY="75.0" onDragDetected="#clique" visible="false">
+                     <image>
+                        <Image url="@imagens/cabeca.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bunda" fitHeight="56.0" fitWidth="54.0" layoutX="83.0" layoutY="104.0" onDragDetected="#clique" visible="false">
+                     <image>
+                        <Image url="@imagens/bunda.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="mao" fitHeight="56.0" fitWidth="44.0" layoutX="67.0" layoutY="114.0" onDragDetected="#clique" visible="false">
+                     <image>
+                        <Image url="@imagens/mao.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="pe" fitHeight="48.0" fitWidth="45.0" layoutX="76.0" layoutY="139.0" onDragDetected="#clique" visible="false">
+                     <image>
+                        <Image url="@imagens/pe.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children></VBox>
+   </left>
+   <right>
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="WinLose" textFill="#cd8181">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="38.0" fitWidth="188.0" layoutY="139.0" onDragDetected="#clique" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imagens/tubo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="marioInicial" fitHeight="84.0" fitWidth="79.0" layoutX="23.0" layoutY="65.0" onDragDetected="#clique">
+                     <image>
+                        <Image url="@imagens/marioinicial.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </right>
+   <top>
+      <VBox alignment="CENTER" prefHeight="132.0" prefWidth="600.0" spacing="50.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#081b36" strokeType="OUTSIDE" strokeWidth="0.0" text="Jogo da Forca">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="Book Antiqua" size="36.0" />
+               </font>
+            </Text>
+            <Label fx:id="dica" textFill="#9e4d4d">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

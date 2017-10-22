@@ -1,0 +1,8 @@
+.root{
+    -fx-background-image: url("imagens/imgfundo.jpg");
+    -fx-background-size:  cover; /*para setar a imagem de fundo conforme tamanho do programa */
+}
+
+.button{
+    -fx-cursor: hand;
+}
