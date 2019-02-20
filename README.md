@@ -1,4 +1,4 @@
-# Jogo-da-Forca
+# Jogo da Forca do Mario
 Aplicação feita em JavaFx com layout construido a partir do frameWork Scene Builder
 
 Jogo da Forca interátivo, com personagens do jogo Mario como ilustração.
