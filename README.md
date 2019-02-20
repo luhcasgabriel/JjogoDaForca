@@ -17,6 +17,7 @@ Configurações
 
 
 Translation to English
+
 Application made in JavaFx with layout built from frameWork Scene Builder
 
 Interactive Forca game with Mario game characters as an illustration.
