@@ -38,5 +38,8 @@ settings
 Evolução
 Evolution
 
-![GitHub Logo](src/jogodaforca/imagens/banner.jpeg)
+![GitHub Logo](src/jogodaforca/imagens/img1.jpeg)
+![GitHub Logo](src/jogodaforca/imagens/img2.jpeg)
+![GitHub Logo](src/jogodaforca/imagens/img3.jpeg)
+![GitHub Logo](src/jogodaforca/imagens/img4.jpeg)
 
