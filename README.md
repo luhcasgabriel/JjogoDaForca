@@ -3,7 +3,7 @@ Aplicação feita em JavaFx com layout construido a partir do frameWork Scene Bu
 
 Jogo da Forca interátivo, com personagens do jogo Mario como ilustração.
 
-![GitHub Logo](/images/banner.jpeg)
+![GitHub Logo](Jogo-da-Forca-do-Mario/src/jogodaforca/imagens//banner.jpeg)
 
 Informações
 - Criação de um projeto em JavaFx, é necessário instalar os plugins do javaFX
