@@ -32,3 +32,11 @@ Information
 settings
 - Installing JavaFX plugins
 - Installation of the JavaFX Scene Builder program (Converts the layout built into javaFX components) - NOT MANDATORY, it is possible to make the components direct in the IDE
+
+
+
+Evolução
+Evolution
+
+![GitHub Logo](src/jogodaforca/imagens/banner.jpeg)
+
