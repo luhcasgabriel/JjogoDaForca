@@ -1,7 +1,7 @@
 <h1 align="center">Jogo da Forca do Mario</h1>
-<p align="center">Aplicação feita em JavaFx com layout construido a partir do frameWork Scene Builder
+<p align="center">Aplicação feita em JavaFx com layout construido a partir do frameWork Scene Builder</p>
 
-Jogo da Forca interátivo, com personagens do jogo Mario como ilustração.</p>
+<p align="center">Jogo da Forca interátivo, com personagens do jogo Mario como ilustração.</p>
 
  
  <p align="center">
