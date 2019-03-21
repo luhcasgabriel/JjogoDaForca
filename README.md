@@ -5,7 +5,7 @@ Jogo da Forca interátivo, com personagens do jogo Mario como ilustração.
 
  
  <p align="center">
-  <img src="src/jogodaforca/imagens/banner.jpeg" width="500" height="500" title="hover text">
+  <img src="src/jogodaforca/imagens/banner.jpeg" width="500" height="400" title="hover text">
 </p> 
 
 Informações
@@ -40,14 +40,14 @@ settings
 Evolução
 Evolution
 <p align="center">
-  <img src="src/jogodaforca/imagens/img1.jpeg" width="500" height="500" title="hover text">
+  <img src="src/jogodaforca/imagens/img1.jpeg" width="500" height="400" title="hover text">
 </p>
 <p align="center">
-  <img src="src/jogodaforca/imagens/img2.jpeg" width="500" height="500" title="hover text">
+  <img src="src/jogodaforca/imagens/img2.jpeg" width="500" height="400" title="hover text">
 </p>
 <p align="center">
-  <img src="src/jogodaforca/imagens/img3.jpeg" width="500" height="500" title="hover text">
+  <img src="src/jogodaforca/imagens/img3.jpeg" width="500" height="400" title="hover text">
 </p>
 <p align="center">
-  <img src="src/jogodaforca/imagens/img4.jpeg" width="500" height="500" title="hover text">
+  <img src="src/jogodaforca/imagens/img4.jpeg" width="500" height="400" title="hover text">
 </p>
